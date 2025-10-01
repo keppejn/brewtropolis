@@ -1,0 +1,173 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Inter:wght@400;700&display=swap');
+
+/* Reset & Base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(to bottom, #0f0c29, #302b63, #24243e);
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Hero Section */
+.hero {
+  height: 100vh;
+  background: url('neon-skyline.gif') center/cover no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero h1 {
+  font-family: 'Monoton', cursive;
+  font-size: 4rem;
+  color: #00ffe0;
+  text-shadow: 0 0 10px #00ffe0, 0 0 20px #ff00c8;
+}
+
+.tagline {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+  color: #ffb6f9;
+}
+
+.cta {
+  background: #ff00c8;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff00c8;
+  transition: transform 0.3s ease;
+}
+
+.cta:hover {
+  transform: scale(1.1);
+}
+
+/* Coffee Menu */
+.coffee-menu {
+  padding: 4rem 2rem;
+  background: #1a1a2e;
+  text-align: center;
+}
+
+.coffee-menu h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00ffe0;
+}
+
+.coffee-card {
+  background: linear-gradient(135deg, #ff00c8, #00ffe0);
+  color: #000;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #00ffe0;
+  transition: transform 0.3s ease;
+}
+
+.coffee-card:hover {
+  transform: translateY(-5px);
+}
+
+.coffee-card a {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #000;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+/* Baristas */
+.baristas {
+  padding: 4rem 2rem;
+  background: #0f0c29;
+  text-align: center;
+}
+
+.baristas h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #ffb6f9;
+}
+
+.barista-card {
+  display: inline-block;
+  margin: 1rem;
+  padding: 1rem;
+  background: #302b63;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ff00c8;
+  max-width: 250px;
+}
+
+.barista-card img {
+  width: 100%;
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+
+/* Contact */
+.contact {
+  padding: 4rem 2rem;
+  background: #24243e;
+  text-align: center;
+}
+
+.contact h2 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #00ffe0;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+button {
+  background: #ff00c8;
+  color: #fff;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  box-shadow: 0 0 10px #ff00c8;
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.05);
+}
+
+/* Footer */
+footer {
+  background: #0f0c29;
+  color: #aaa;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
